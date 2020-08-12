@@ -17,4 +17,5 @@ jobs:
         with:
           TARGET_PATHS: README.md
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TOC_TITLE: ''
           ENTIRE: true
